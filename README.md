@@ -1,18 +1,27 @@
-# PowerPoint Generator
+# AI PowerPoint Generator
 
-A basic PowerPoint presentation generator that leverages AI and stock imagery to create presentations automatically.
+A Streamlit web app that leverages Google’s Gemini generative AI to create professional PowerPoint presentations automatically from a topic input. The app can generate slide outlines and content, optionally enhancing slides with related images fetched from the Pexels API.
+
+---
 
 ## Features
 
-- **AI-Powered Content Generation**: Uses Google's Gemini 2.5 Pro model to generate presentation content
-- **Automatic Image Integration**: Fetches relevant images from Pexels to enhance slides
-- **Automated Presentation Creation**: Generates complete PowerPoint files programmatically
+- Generate presentation slide outlines with AI based on any topic.
+- Customize number of slides.
+- Optionally include relevant stock images using Pexels.
+- Use multiple Gemini models (Pro, Flash, etc.) for different speed and quality preferences.
+- Download fully formatted PowerPoint (.pptx) files.
+- Debug mode to show raw AI generation output for troubleshooting.
 
-## Prerequisites
+---
 
-- Python 3.7+
-- Google AI Studio API key (for Gemini access)
-- Pexels API key
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Google Gemini API key with access to generative AI models.
+- (Optional) Pexels API key to fetch stock images.
 
 ## Installation
 
